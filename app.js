@@ -26,4 +26,4 @@ fastify.after(() => {
   })
 })
 
-fastify.listen(3001);
+fastify.listen(process.env.PORT || 3001, '0.0.0.0');

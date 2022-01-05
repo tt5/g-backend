@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "start": "node app.js"
   },
   "dependencies": {
     "fastify": "^3.24.1",
