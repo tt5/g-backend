@@ -1,0 +1,9 @@
+
+heroku login
+heroku git:remote -a main
+heroku create
+
+https://git.heroku.com/fast-citadel-15771
+
+commit changes to git first then
+git push heroku main
